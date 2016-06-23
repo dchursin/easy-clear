@@ -1,0 +1,135 @@
+@charset "UTF-8";
+html {
+	background: #ffffff;
+	font-family: "Oswald", sans-serif;
+	color: white;
+}
+#input-form input[type="text"]:focus {
+	outline: none;
+}
+.container {
+	width: 100%;
+	position: absolute;
+}
+#input-form {
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+#input-form input[type="text"] {
+	border: 2px solid #cccccc;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	padding: 9px 5px;
+	margin: 15px 10px;
+	width: 85%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+h1 {
+	color: #cccccc;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+h1 span {
+	font-weight: bold;
+	color: #cccccc;
+	opacity: .3;
+}
+a.tooltip-default-button-click,
+a.tooltip-default-button-hover {
+	display: inline-block;
+	outline: none;
+	margin: 5px;
+	margin-top: 25px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 5px 8px;
+	text-decoration: none;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	background: #6f6b65;
+}
+a.tooltip-default-button-click:hover,
+a.tooltip-default-button-hover:hover {
+	background: #222222;
+}
+a.tooltip-info-button-click,
+a.tooltip-info-button-hover {
+	display: inline-block;
+	outline: none;
+	margin: 5px;
+	margin-top: 25px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 5px 8px;
+	text-decoration: none;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	background: #dddddd;
+}
+a.tooltip-info-button-click:hover,
+a.tooltip-info-button-hover:hover {
+	background: #c4c4c4;
+}
+a.tooltip-error-button-click,
+a.tooltip-error-button-hover {
+	display: inline-block;
+	outline: none;
+	margin: 5px;
+	margin-top: 25px;
+	color: #bf2e2e;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 5px 8px;
+	text-decoration: none;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	background: #ff6666;
+}
+a.tooltip-error-button-click:hover,
+a.tooltip-error-button-hover:hover {
+	background: #ea5b54;
+}
+a.tooltip-warning-button-click,
+a.tooltip-warning-button-hover {
+	display: inline-block;
+	outline: none;
+	margin: 5px;
+	margin-top: 25px;
+	color: #cc760c;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	padding: 5px 8px;
+	text-decoration: none;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	background: #fdc064;
+}
+a.tooltip-warning-button-click:hover,
+a.tooltip-warning-button-hover:hover {
+	background: #f2ab53;
+}
