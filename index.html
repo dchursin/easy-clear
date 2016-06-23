@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <title>Description plugin page</title>
+      <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <link href="css/reset.css" rel="stylesheet" type="text/css">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery.easy-clear.js" type="text/javascript"></script>
+      <script type="text/javascript">
+         $(function() { $('.first-input').easyclear({ imagePath: 'img/close16x16.png' }); });
+         $(function() { $('.second-input').easyclear({ top: 25, right: 43, imageHeight: 24, imageWidth: 24, imagePath: 'img/close24x24.png' }); });
+         $(function() { $('.third-input').easyclear({ top: 21, right: 47, imageHeight: 32, imageWidth: 32, imagePath: 'img/close32x32.png' }); });
+      </script>
+      <style type="text/css">
+         .hide { display: none; }
+         img.input-clear { cursor: pointer; }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <h1><span>easy-clear</span>.js</h1>
+         <form id="input-form">
+            <input type="text" style="padding-right: 35px;" class="first-input" />
+            <input type="text" style="padding-right: 35px;" class="second-input" />
+            <input type="text" style="padding-right: 35px;" class="third-input" />
+         </form>
+      </div>
+   </body>
+</html>
